@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
@@ -17,3 +17,13 @@ public class App
         System.out.printf( "%s", greeting);
     }
 }
+
+//Challenge 1
+/*public class App
+{
+    public static void main( String[] args )
+    {
+        System.out.print( "What is your name? ");
+        System.out.printf("Hello, " + new Scanner(System.in).next() + ", nice to meet you!");
+    }
+}*/
